@@ -39,7 +39,7 @@ const App = () =>{
           <label className="absolute top-[25%] left-[25%] text-xl">Insert Your URL Here:
             <input value={OriginalURL} onChange={changeOriginalURL} className="border-2 bg-blue-400 top-[-15%] absolute left-[105%] text-black p-1"></input>
             </label>
-          <a href={`http://localhost:3000/${ShortenedURL}`} className="absolute top-[45%]"><p>Your Shortened URL is {ShortenedURL}</p></a>
+          <a href={`https://potato-b015.onrender.com/${ShortenedURL}`} className="absolute top-[45%]"><p>Your Shortened URL is {ShortenedURL}</p></a>
           <button type="submit" className="absolute top-[60%] border-2 bg-blue-300 p-2 w-[20%]">Shorten</button>
         </form>
       </div>
