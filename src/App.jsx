@@ -12,7 +12,7 @@ const App = () =>{
   function handleSubmit(event){
     event.preventDefault()
 
-    fetch("http://localhost:3000/URLDB", {
+    fetch("https://potato-b015.onrender.com/URLDB", {
       method : "POST",
       headers : {
         "Content-Type" : "application/json"
